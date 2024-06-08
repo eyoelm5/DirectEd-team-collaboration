@@ -106,7 +106,7 @@ function cheakDraw(){
     }
 }
 
-document.getElementById("play-again").addEventListener("click", restart)
+document.getElementById("reset").addEventListener("click", restart)
 function restart(){
     isGameOver = false;
     currentPlayer = "X";
@@ -121,7 +121,7 @@ function restart(){
     })
 }
 
-document.getElementById("reset").addEventListener("click", () => {
+document.getElementById("play-again").addEventListener("click", () => {
     document.querySelector(".winners-page").style.display = "flex";
     if(count1 > count2){
         document.getElementById("winner").innerText = "The Winner is Player 1"
