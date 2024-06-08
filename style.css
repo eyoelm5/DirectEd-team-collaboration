@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/tictactoe');
 *{
     color: white;
     font-family: sans-serif;
@@ -250,6 +251,7 @@ body{
     content: 'TicTacToe';
     font-size: 77px;
     position: relative;
+    font-family: 'TicTacToe', sans-serif;                                        
     top: 0.5em;
 }
 
